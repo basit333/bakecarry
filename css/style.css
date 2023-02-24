@@ -837,7 +837,7 @@ Products section
   left: 0px;
   bottom: -2px;
   width: 40px;
-  height: 3px;
+  height: 5px;
   right: 0px;
   background: #408858;
   margin: 0 auto;
@@ -848,6 +848,10 @@ Products section
 .product-item:hover {
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
   background: #fff;
+}
+
+.product-item:hover .heading-white {
+  color: #000;
 }
 
 .product-item:hover:before {
@@ -2046,4 +2050,9 @@ Single Blog Page
 
 .post-share a {
   margin-bottom: 10px;
+}
+
+.heading-white {
+  color: #fff;
+  transition: all 0.3s linear;
 }
