@@ -72,6 +72,14 @@
     padding: 20px;
   }
 
+  .img-50 {
+    width: 100% !important;
+  }
+
+  .product-item .product-img {
+    margin-bottom: 25px;
+  }
+
   .padding-right-0 {
     padding-right: 0 !important;
   }
