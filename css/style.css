@@ -229,6 +229,14 @@ ol {
   padding-left: 0px;
 }
 
+.main-box {
+  display: none;
+}
+
+.img-50 {
+  width: 50% !important;
+}
+
 .pt-100 {
   padding-top: 100px;
 }
@@ -824,7 +832,7 @@ Products section
 
 .product-item {
   text-align: center;
-  padding: 40px 35px 35px 35px;
+  padding: 20px;
   border: 2px solid #eef2fb;
   border-radius: 4px;
   position: relative;
