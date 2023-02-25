@@ -160,3 +160,15 @@
     border-color: transparent !important;
   }
 }
+
+@media screen and (max-width: 366px) {
+  .heading-white {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 342px) {
+  .heading-white {
+    font-size: 14px !important;
+  }
+}
