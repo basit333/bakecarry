@@ -57,7 +57,31 @@
 
 @media (max-width: 768px) {
   .gap-30 {
-    gap: 30px;
+    gap: 20px;
+  }
+
+  .wrap-no {
+    flex-wrap: nowrap !important;
+  }
+
+  .col-50-w {
+    width: 50% !important;
+  }
+
+  .product-item {
+    padding: 20px;
+  }
+
+  .padding-right-0 {
+    padding-right: 0 !important;
+  }
+
+  .padding-left-0 {
+    padding-left: 0 !important;
+  }
+
+  .heading-white {
+    font-size: 18px !important;
   }
 }
 
