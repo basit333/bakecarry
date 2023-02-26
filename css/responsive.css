@@ -112,9 +112,9 @@
     font-size: 18px !important;
   }
 
-  .img-fluid {
+  /* .img-fluid {
     height: auto;
-  }
+  } */
 }
 
 @media (max-width: 480px) {
