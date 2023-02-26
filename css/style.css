@@ -228,6 +228,11 @@ ol {
   padding-left: 0px;
 }
 
+.logo-img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 .main-box {
   display: none;
 }
