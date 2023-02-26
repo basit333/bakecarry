@@ -53,6 +53,10 @@
   .service-item.style-2 {
     margin-bottom: 20px;
   }
+
+  .col-65-w {
+    width: 65% !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -74,6 +78,10 @@
 
   .col-50-w {
     width: 50% !important;
+  }
+
+  .col-65-w {
+    width: 60% !important;
   }
 
   .product-item {
@@ -102,6 +110,10 @@
 
   .heading-white {
     font-size: 18px !important;
+  }
+
+  .img-fluid {
+    height: auto;
   }
 }
 
@@ -170,17 +182,6 @@
   }
   .border-right {
     border-color: transparent !important;
-  }
-
-  .img-fluid {
-    max-width: 100%;
-    height: 60px;
-  }
-}
-
-@media screen and (max-width: 430px) {
-  .img-fluid {
-    height: 50px;
   }
 }
 
