@@ -260,7 +260,7 @@ ol {
 Banner Area
 ======================*/
 .section-padding {
-  padding: 50px 0px;
+  padding: 20px 0 50px 0;
 }
 
 .page-wrapper {
@@ -857,12 +857,24 @@ Products section
   background: #be8935;
 }
 
+.process-item-hover:hover {
+  background: #f7f7f7 !important;
+}
+
 .product-item:hover:before {
   opacity: 1;
 }
 
 .product-item .product-img {
   margin-bottom: 50px;
+}
+
+.product-img-mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.product-item-bg {
+  background-color: #f7f7f7;
 }
 
 .product-item .product-text h5 {
