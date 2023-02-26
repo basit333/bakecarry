@@ -28,7 +28,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   line-height: 28px;
   margin: 0;
@@ -36,8 +36,7 @@ body {
   font-weight: 400;
   color: #6a7695;
   overflow-x: hidden;
-  background: url("../images/bg/cta.jpg") center center;
-  background-size: cover;
+  background-color: #313f0e;
 }
 
 p {
@@ -62,7 +61,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   line-height: 1.2;
   margin-bottom: 0.5rem;
@@ -855,11 +854,7 @@ Products section
 
 .product-item:hover {
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
-  background: #fff;
-}
-
-.product-item:hover .heading-white {
-  color: #000;
+  background: #be8935;
 }
 
 .product-item:hover:before {
@@ -1173,7 +1168,7 @@ FOOTER section
 }
 
 .footer-socials a:hover {
-  background: #000;
+  background: #be8935;
   color: #fff;
 }
 
